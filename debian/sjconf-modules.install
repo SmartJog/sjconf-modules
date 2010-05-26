@@ -1,0 +1,3 @@
+plugins/*.py usr/share/sjconf-modules/plugins
+templates/modules/modules.conf etc/sjconf-modules/templates/modules
+confs/modules.conf etc/sjconf-modules/confs

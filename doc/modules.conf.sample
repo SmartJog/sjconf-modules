@@ -1,0 +1,6 @@
+[modules]
+template = templates/modules/modules.conf
+modules = rtc, e1000, tg3, eepro100, input, videodev, BCMSM, ppp_generic, tun, cineview, ip_conntrack_ftp, ide-core, serverworks, ide-detect, ide-cd, fuse, igb, ivtv, ipmi_si, ipmi_devintf, ipmi_msghandler
+
+[modules:options]
+ivtv = enc_yuv_buffers=32 enc_mpg_buffers=32 enc_vbi_buffers=32 enc_pcm_buffers=32

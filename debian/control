@@ -1,0 +1,15 @@
+Source: sjconf-modules
+Section: misc
+Priority: optional
+Maintainer: Philippe Bridant <philippe.bridant@smartjog.com>
+Uploaders: Clément Bœsch <clement.boesch@smartjog.com>
+Build-Depends: cdbs (>= 0.4.52), debhelper (>= 7.0.15), txt2tags, python-central (>= 0.6)
+XS-Python-Version: >= 2.5
+Standards-Version: 3.8.4
+
+Package: sjconf-modules
+Architecture: all
+Depends: ${misc:Depends} ${python:Depends}, sjconf1 (>= 1.3.3)
+XB-Python-Version: ${python:Versions}
+Description: sjconf plugin for modules
+ Add your description here

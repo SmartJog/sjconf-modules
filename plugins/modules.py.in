@@ -1,0 +1,20 @@
+# -*- coding: utf-8 -*-
+
+import sjconf
+
+class Plugin(sjconf.PluginWithTemplate):
+
+    VERSION = '@PACKAGE_VERSION@'
+
+    def conf_files_path(self):
+        return ('%s/modules' % self.sjconf.etc_dir,)
+
+    def conf_types(self):
+        return ((self.name(), 'modules', 'list'),)
+
+    def file_content(self, file_path):
+        file_content = sjconf.PluginWithTemplate.file_content(self, file_path)
+        for m_name in self.conf[self.name()]['modules_list']:
+            options = self.conf.get('modules:options', {}).get(m_name, None)
+            file_content += m_name + (options and (' ' + options) or '') + '\n'
+        return file_content
