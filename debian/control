@@ -9,7 +9,7 @@ Standards-Version: 3.8.4
 
 Package: sjconf-modules
 Architecture: all
-Depends: ${misc:Depends} ${python:Depends}, sjconf1 (>= 1.3.3)
+Depends: ${misc:Depends}, ${python:Depends}, sjconf1 (>= 1.3.3)
 XB-Python-Version: ${python:Versions}
 Description: sjconf plugin for modules
  This package provides a plugin to manage /etc/modules using sjconf
