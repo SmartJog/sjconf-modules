@@ -1,4 +1,4 @@
-sjconf-modules (0.1.0~dev-1) unstable; urgency=low
+sjconf-modules (0.1.0-1) unstable; urgency=low
 
   [ Clément Bœsch ]
   * Initial release, closes: #3061.
@@ -6,4 +6,4 @@ sjconf-modules (0.1.0~dev-1) unstable; urgency=low
   [ Gilles Dartiguelongue ]
   * Add myself to Uploaders.
 
- -- Gilles Dartiguelongue <gilles.dartiguelongue@smartjog.com>  Thu, 01 Jul 2010 18:46:43 +0200
+ -- Gilles Dartiguelongue <gilles.dartiguelongue@smartjog.com>  Thu, 01 Jul 2010 18:47:37 +0200
