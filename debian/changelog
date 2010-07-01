@@ -2,4 +2,4 @@ sjconf-modules (0.1.0~dev-1) unstable; urgency=low
 
   * Initial release, closes: #3061.
 
- -- Clément Bœsch <clement.boesch@smartjog.com>  Wed, 25 Feb 2009 10:24:19 +0100
+ -- Clément Bœsch <clement.boesch@smartjog.com>  Thu, 01 Jul 2010 18:18:11 +0200
