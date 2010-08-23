@@ -1,8 +1,9 @@
-sjconf-modules (0.1.1~dev-1) unstable; urgency=low
+sjconf-modules (0.1.1-1) unstable; urgency=low
 
   * New upstream release, closes: #3295.
+  * Add myself to Uploaders.
 
- -- Clément Bœsch <clement.boesch@smartjog.com>  Thu, 22 Jul 2010 09:48:47 +0200
+ -- Nicolas Noirbent <nicolas.noirbent@smartjog.com>  Mon, 23 Aug 2010 15:14:29 +0200
 
 sjconf-modules (0.1.0-1) unstable; urgency=low
 
