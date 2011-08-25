@@ -1,9 +1,15 @@
 sjconf-modules (0.1.2~dev-1) unstable; urgency=low
 
+  [ Alexandre Bossard ]
   * New upstream release, closes: #3296.
   * Added myself to Uploaders.
 
- -- Alexandre Bossard <alexandre.bossard@smartjog.com>  Wed, 06 Oct 2010 11:55:21 +0200
+  [ Laurent Defert ]
+  * Add myself to uploaders.
+  * Update debian/control Build-Depends.
+  * Update debian/compat version.
+
+ -- Laurent Defert <laurent.defert@smartjog.com>  Thu, 25 Aug 2011 15:01:23 +0200
 
 sjconf-modules (0.1.1-1) unstable; urgency=low
 
