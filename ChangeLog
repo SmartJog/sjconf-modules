@@ -1,4 +1,4 @@
-Version 0.1.2~dev
+Version 0.1.2 Released on 2011/08/25
 
 	* Changed conf module key type from list to sequence, closes: #3296.
 

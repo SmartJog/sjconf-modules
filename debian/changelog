@@ -1,4 +1,4 @@
-sjconf-modules (0.1.2~dev-1) unstable; urgency=low
+sjconf-modules (0.1.2-1) unstable; urgency=low
 
   [ Alexandre Bossard ]
   * New upstream release, closes: #3296.
